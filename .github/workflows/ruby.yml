@@ -2,19 +2,26 @@ name: Ruby
 
 on:
   push:
-    branches: [master, main]
+    branches:
+      - master
+      - main
   pull_request:
-    branches: [master, main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        ruby:
+          - 3.0.1
 
     steps:
       - uses: actions/checkout@v2
       - name: Set up Ruby 3.0
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
       - name: Lint code
         run: bundle exec rake lint
