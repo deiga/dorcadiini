@@ -12,6 +12,6 @@ gem "rake", "13.0.6"
 
 gem "minitest", "5.15.0"
 
-gem "rubocop", "1.30.0"
+gem "rubocop", "1.30.1"
 gem "rubocop-minitest"
 gem "rubocop-rake"
