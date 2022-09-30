@@ -16,7 +16,7 @@ GEM
     rake (13.0.6)
     regexp_parser (2.5.0)
     rexml (3.2.5)
-    rubocop (1.35.1)
+    rubocop (1.36.0)
       json (~> 2.3)
       parallel (~> 1.10)
       parser (>= 3.1.2.1)
@@ -43,7 +43,7 @@ DEPENDENCIES
   dorcadiini!
   minitest (= 5.16.3)
   rake (= 13.0.6)
-  rubocop (= 1.35.1)
+  rubocop (= 1.36.0)
   rubocop-minitest
   rubocop-rake
 
