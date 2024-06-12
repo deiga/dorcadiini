@@ -10,8 +10,8 @@ ruby '~> 3.0'
 
 gem "rake", "13.2.1"
 
-gem "minitest", "5.22.3"
+gem "minitest", "5.23.1"
 
-gem "rubocop", "1.63.3"
+gem "rubocop", "1.64.1"
 gem "rubocop-minitest"
 gem "rubocop-rake"
