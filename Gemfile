@@ -8,10 +8,10 @@ gemspec
 
 ruby '~> 3.0'
 
-gem "rake", "13.2.1"
+gem "rake", "13.3.0"
 
-gem "minitest", "5.25.1"
+gem "minitest", "5.25.5"
 
-gem "rubocop", "1.66.0"
+gem "rubocop", "1.79.2"
 gem "rubocop-minitest"
 gem "rubocop-rake"
