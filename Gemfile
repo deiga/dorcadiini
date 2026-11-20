@@ -6,7 +6,7 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 # Specify your gem's dependencies in dorcadiini.gemspec
 gemspec
 
-ruby '~> 3.0'
+ruby '3.5.0-preview1'
 
 gem "rake", "13.2.1"
 
